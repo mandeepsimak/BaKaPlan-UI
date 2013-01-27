@@ -1,4 +1,4 @@
-SeatPlan
+BaKaPlan
 ========
 
-Landing Page and Images required for seating plan
+Landing Page and Images required for BaKaPlan(Seating Plan)
