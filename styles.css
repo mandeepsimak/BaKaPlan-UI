@@ -16,9 +16,35 @@ color:#131313;
 
 a:hover
 {
-text-decoration:underline;
+color:#33a1de;
 }
 
+body
+{
+font-family: 'Quicksand', sans-serif;
+background:url(images/wild_oliva.png);
+}
+header
+{
+height:50px;
+background-color:rgba(013,013,013,0.7);
+border-bottom:3px solid #131313;
+}
+header #logo
+{
+float:left;
+padding:1% 1% 1% 1%;
+width:150px;
+}
+
+header #logo h1
+{
+/*font-family: 'Julius Sans One', sans-serif;*/
+font-family: 'Quicksand', sans-serif;
+font-size:1.5em;
+color:#ffffff;
+
+}
 #wrapper
 {
 max-width:1000px;
@@ -27,16 +53,17 @@ margin:auto;
 
 #nachdaBalak
 {
-max-width:25%;
+max-width:35%;
 margin:auto;
 margin-top:10%;
 position:relative;
 }
 
-#nachdaBalak img
+#nachdaBalak h1
 {
-background:red;
+font-size:4em;
 position:relative;
+font-family: 'Open Sans', sans-serif;
 animation-name:myfirst;
 animation-duration:5s;
 animation-timing-function:linear;
@@ -83,7 +110,6 @@ border-radius:20px;
 {
 font-size:36px;
 color:#131313;
-font-family: 'Open Sans', sans-serif;
 padding:5px 5px 5px 5px;
 /*'Sacramento', cursive;*/
 }
